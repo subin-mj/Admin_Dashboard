@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Dashboard Template By Subin</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="assets/css/animate.min.css" rel="stylesheet"/>
+
+    <!--  Light Bootstrap Table core CSS    -->
+    <link href="assets/css/light-bootstrap-dashboard.css" rel="stylesheet"/>
+
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+    <!-- highmaps exrternal css -->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!--     Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+    <!-- Telephone Country Picker-->
+    <link rel="stylesheet" href="/vendor/intl-tel-input/build/css/intlTelInput.css" />
+    <!-- Stylesheet for jquery Ui (datepicker) -->
+     <link href="assets/css/jquery-ui.css" rel="stylesheet" />
+
+
+</head>
+<body>
+
+<div class="wrapper">
+
+<!-- THIS IS THE SIDEBAR -->
+    <div class="sidebar" data-color="red" data-image="assets/img/sidebar-4.jpg">
+
+    <!--
+
+        Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
+        Tip 2: you can also add an image using data-image tag
+
+    -->
+
+    	<div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="#" class="simple-text">
+                    Subin MJ
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li>
+                    <a href="dashboard.html">
+                        <i class="pe-7s-graph"></i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="#">
+                        <i class="pe-7s-user"></i>
+                        <p>User Profile</p>
+                    </a>
+                </li>
+                
+				<li class="active-pro">
+                    <a href="#">
+                        <i class="pe-7s-rocket"></i>
+                        <p>Upgrade</p>
+                    </a>
+                </li>
+            </ul>
+    	</div>
+    </div>
+<!-- THIS IS THE END SIDEBAR -->
+
+<div class="main-panel">
+
+<!-- THIS IS THE NAV BAR -->
+        <nav class="navbar navbar-default navbar-fixed">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Dashboard</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-comments"></i>
+								<p class="hidden-lg hidden-md">Dashboard</p>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-globe"></i>
+                                    <b class="caret hidden-sm hidden-xs"></b>
+                                    <span class="notification hidden-sm hidden-xs">5</span>
+									<p class="hidden-lg hidden-md">
+										5 Notifications
+										<b class="caret"></b>
+									</p>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Notification 1</a></li>
+                                <li><a href="#">Notification 2</a></li>
+                                <li><a href="#">Notification 3</a></li>
+                                <li><a href="#">Notification 4</a></li>
+                                <li><a href="#">Another notification</a></li>
+                              </ul>
+                        </li>
+                        <li>
+                           <a href="#">
+                                <i class="fa fa-refresh"></i>
+								
+                            </a>
+                        </li>
+                    </ul>
+<!-- THIS IS THE USER DETAILS DROPDOWN -->
+                    <ul class="nav navbar-nav navbar-right">
+                      <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <p>
+										Howdy,Subin
+                                         <img src="assets/img/subin resume.png" class="profile-image-small">
+										<b class="caret"></b>
+									</p>
+                              </a>
+                              <ul class="dropdown-menu" style="width: 300px; ">
+                              <div class="container-fluid">
+                              <div class="row">
+                              <div class="col-md-6">
+                                <img src="assets/img/subin resume.png" class="profile-image">
+                              </div>
+                              <div class="col-md-6">
+                                <li><p><a href="#"><b>Subin Michael Jacob</b></a></p></li>
+                                <li>Creative</li>
+                                <li><a href="#"><h5>Edit Profile</h5></a></li>
+                                <li class="divider"></li>
+                                <li><a href="#"><h5>Logout</h5></a></li>
+                                </div>
+                                </div>
+                                </div>
+                              </ul>
+                        </li>
+                        
+						<li class="separator hidden-lg hidden-md"></li>
+                    </ul>
+<!-- END OF THE USER DETAILS DROPDOWN -->                    
+                </div>
+            </div>
+        </nav>
+<!-- END OF THE NAV BAR -->
+
+<!-- THE CONTENT INSIDE THE WHITE AREA IS HERE -->
+<div class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-8">
+      <div class="card">
+
+        <div class="header">
+          <h4 class="title">Edit Profile</h4>
+        </div>
+        <div class="content">
+          <form>
+            <div class="row">
+
+              <div class="col-md-5">
+                <div class="form-group">
+                  <label>Username</label>
+                  <input type="text" class="form-control" placeholder="Username" value="SubinMike">
+                </div>
+              </div>
+               <div class="col-md-4">
+                <div class="form-group">
+                  <label>Date of Birth</label>
+                  <!-- <p>Date: <input type="text" id="datepicker"></p> -->
+                  <input type="date" id="datepicker" class="form-control" placeholder="Date of Birth" value="1992-09-10">
+                </div>
+              </div>
+               <div class="col-md-3">
+                <div class="form-group">
+                  <label>Age</label>
+                  <input type="number" class="form-control" placeholder="Age" value="24">
+                </div>
+              </div>
+              <!-- end of the first row -->
+            </div>
+
+              <div class="row">
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label> First Name</label>
+                  <input type="text" placeholder="First Name" class="form-control" value="Subin">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label> Middle Name</label>
+                  <input type="text" placeholder="Middle Name" class="form-control" value="Michael">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label> Last Name</label>
+                  <input type="text" placeholder="Last Name" class="form-control" value="Jacob">
+                </div>
+              </div>
+
+              <!-- end of the seconf row -->
+            </div>
+
+             
+               <div class="row">
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label> Address</label>
+                  <input type="text" placeholder="Address" class="form-control" value="">
+                </div>
+              </div>
+              <!-- end of the third row -->
+            </div>
+
+             <div class="row">
+
+              <div class="col-md-5">
+                <div class="form-group">
+                  <label> City</label>
+                  <input type="text" placeholder="City" class="form-control" value="">
+                </div>
+              </div>
+                <div class="col-md-4">
+                <div class="form-group">
+                  <label> Country</label>
+                  <input type="text" placeholder="Country" class="form-control" value="">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                  <label> Postal Code</label>
+                  <input type="number" placeholder="Postal Code" class="form-control" value="">
+                </div>
+              </div>
+              <!-- end of the fourth row -->
+            </div>
+
+            <div class="row">
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Email</label>
+                  <input type="email" placeholder="Email" class="form-control" value="subinmj2010@gmail.com">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Mobile No.</label>
+                <input type="text" class="form-control bfh-phone" data-country="countries_phone1">
+                </div>
+              </div>
+
+              <!-- end of the fifth row -->
+            </div>
+             <div class="row">
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label>About Me</label>
+                  <textarea rows="5" class="form-control" placeholder="About me"></textarea> 
+                </div>
+              </div>
+              
+              <!-- end of the fifth row -->
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <button class="btn btn-primary pull-right">Upgarde Now</button>
+              </div>
+              <!-- end of the sixt row -->
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+  <div class="col-md-4">
+        <div class="card card-user">
+        <div class="image">
+          <img src="assets/img/cover-image.jpg" alt="..."/>
+          </div>
+          <div class="content">
+             <div class="author">
+                 <a href="#">
+                  <img class="avatar border-gray" src="assets/img/subin resume.png" alt="..."/>
+
+                    <h4 class="title">Subin<br />
+                      <small>SubinMike</small>
+                    </h4>
+                </a>
+                </div>
+                <hr>
+              <p class="description text-center"> 
+              "Keep Calm  <br>
+             Innovate and Design  <br>
+            Everything is Design"
+            </p>
+          </div>
+        </div>
+      
+    
+  </div>
+<!-- end of main row -->
+</div>
+</div>
+</div>
+
+<!-- THIS IS THE END OF THE CONTENT IN WHITE AREA -->
+
+
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <nav class="pull-left">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Company
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                               Blog
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <p class="copyright pull-right">
+                    &copy; <script>document.write(new Date().getFullYear())</script> <a href="#">Subin Michael Jacob</a>, Better than a fabricated portfolio.
+                </p>
+            </div>
+        </footer>
+
+    </div>
+</div>
+
+
+</body>
+
+    <!--   Core JS Files   -->
+    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+	<!--  Checkbox, Radio & Switch Plugins -->
+	<script src="assets/js/bootstrap-checkbox-radio-switch.js"></script>
+
+	<!--  Charts Plugin -->
+	<script src="assets/js/chartist.min.js"></script>
+
+    <!--  Notifications Plugin    -->
+    <script src="assets/js/bootstrap-notify.js"></script>
+
+    <!--  Google Maps Plugin    -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+    <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
+	<script src="assets/js/light-bootstrap-dashboard.js"></script>
+
+	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
+	<script src="assets/js/demo.js"></script>
+
+	<script type="text/javascript">
+    	$(document).ready(function(){
+
+        	demo.initChartist();
+
+        	$.notify({
+            	icon: 'pe-7s-gift',
+            	message: "Welcome to <b>Subin Dashboard</b> - review my creativity.Better than a fabricated portfolio."
+
+            },{
+                type: 'info',
+                timer: 3000
+            });
+
+    	});
+	</script>
+  <!-- THIS IS JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+ <!-- THIS IS HIGH MAPS SCRIPTS--> 
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/data.js"></script> 
+    <script src="https://code.highcharts.com/maps/modules/drilldown.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+ <!-- THIS IS TEH END OF HIGH MAPS SCRIPTS -->
+
+<!-- THIS IS THE HIGH CHART SCRIPTS -->
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<!--  THIS IS THE SCRIPT FOR LINE CHART-->
+<script src="assets/js/linechart.js"></script>
+<!--  THIS IS THE SCRIPT FOR LINE CHART-->
+
+<!--  THIS IS THE SCRIPT FOR MAP DRILLDOWN-->
+<script src="assets/js/highmaps.js"></script>
+<!--  THIS IS THE SCRIPT FOR MAPS-->
+<script src="assets/js/donut.js"></script>
+
+<!-- THIS IS THE END HIGH CHART SCRIPTS -->
+<!-- THIS IS DATE PICKER SCRIPT -->
+<script>
+      $( function() {
+        $( "#datepicker" ).datepicker({ dateFormat: 'yy-mm-dd' });
+      } );
+</script>
+
+ 
+</html>
